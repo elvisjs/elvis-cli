@@ -1,0 +1,23 @@
+{
+  "indent": [true, "spaces", 2],
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "include": [
+    "index.ts",
+  ],
+  "exclude": [
+    "examples",
+    "node_modules"
+  ]
+}

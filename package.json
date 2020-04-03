@@ -1,0 +1,50 @@
+{
+  "name": "elvis-cli",
+  "bin": {
+    "elvis": "lib/index.js"
+  },
+  "collaborators": [
+    "clearloop <udtrokia@gmail.com>"
+  ],
+  "description": "Calling Elvis, is anybody home?",
+  "version": "0.1.15",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calling-elvis/elvis-cli"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js",
+  "homepage": "https://github.com/clearloop/elvis",
+  "sideEffects": false,
+  "dependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.1.0",
+    "chalk": "^3.0.0",
+    "chokidar": "^3.3.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "got": "^10.5.6",
+    "html-webpack-plugin": "^3.2.0",
+    "progress": "^2.0.3",
+    "serve-handler": "^6.1.2",
+    "tar": "^6.0.1",
+    "webpack": "^4.41.6",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-html-plugin": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.1",
+    "@types/node": "^13.7.1",
+    "@types/progress": "^2.0.3",
+    "@types/serve-handler": "^6.1.0",
+    "@types/tar": "^4.0.3",
+    "@types/webpack": "^4.41.6",
+    "@types/webpack-dev-server": "^3.10.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "elvis": "ts-node index.ts"
+  }
+}
